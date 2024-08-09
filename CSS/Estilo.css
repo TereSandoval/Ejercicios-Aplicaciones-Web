@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.activity-list {
+    list-style-type: none;
+    padding: 0;
+}
+.activity-list li {
+    margin: 10px 0;
+}
+.activity-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+.activity-list a:hover {
+    text-decoration: underline;
+}
